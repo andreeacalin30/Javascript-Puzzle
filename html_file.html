@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+    
+    <script type="text/javascript"  src="javascript_file.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css_file.css">
+
+</head>
+<body>
+    <h1><em>PUZZLE GAME</em> </h1>
+    <div class="uploadSection">
+        <h2>You can add your photo here:</h2>
+        <input type="file" id="uploadImage" accept="image/*" onchange="uploadFunction()">
+    </div>
+    <div>
+        <canvas id="canvas1" class="canvas1" height="300" width="400"> </canvas>
+        <canvas id="canvas2" class="canvas2" height="300" width="400"> </canvas>
+    </div>
+
+    <button class="btn1" id="crearePuzzle"><em>See Puzzle</em></button>
+    <div>
+        <p id="p1">
+            <em>Game rules:</em>
+        </p>
+        <p>
+            <em><ul>
+                <li>Upload the photo</li>
+                <li>Click on "See Puzzle"</li>
+                <li>Arrange the pieces </li>
+            </ul></em>
+        </p>
+    </div>
+
+
+</body>
+</html >
